@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tushar fintness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(img/abc.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            background-size: 1500px;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: -71px;
+            top: 23px;
+            width: 30%;
+            text-align: center;
+
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 46%;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 60px;
+            top: 23px;
+            padding: 5px 5px;
+        }
+
+        .left img {
+            width: 20%;
+            display: inline-block;
+            padding: 13px 19px;
+        }
+
+        .navbar {
+            display: inline-block;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 2px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: gray;
+            text-decoration: underline gray;
+
+        }
+
+        .btn {
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            border: 2px solid black;
+            padding: 4px 14px;
+            margin: 0px 9px;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: rgb(15, 15, 15);
+        }
+
+        .container {
+            border: 2px solid white;
+            text-align: center;
+            padding: 50px;
+            margin: 114px 93px;
+            width: 32%;
+        }
+
+        .formgrp input {
+            display: block;
+            border: 2px solid black;
+            text-align: center;
+            padding: 11px 11px;
+            margin: 15px 105px;
+            font-size: 16px;
+            border-radius: 18px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="left"> <img src="img/logo.png" alt="">
+            <div>
+                TB gym
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> fitness calculator</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call us </button>
+            <button class="btn"> Email us </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h4>Fill the following detailes</h4>
+        <form action="noactipon.php">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your weight">
+            </div>
+            <button class="btn">sumbit</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
